@@ -1,8 +1,26 @@
 aid: big-sur-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/big-sur-ai.png
 name: Big Sur Ai
-description: Big Sur Ai is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Big Sur AI is an AI-powered SaaS platform for e-commerce merchants, founded in
+  2023 by Vinod Ramachandran (CEO) and Arnaud Weber (CTO). Its flagship product is
+  an AI Sales Agent that delivers an assisted, conversational shopping experience to
+  online shoppers, guiding product discovery and answering questions in real time to
+  increase merchant conversion rates and average order sizes. The company raised a
+  $6.9M seed round in March 2024 led by Lightspeed Venture Partners, with Guru Chahal
+  as the lead partner. This profile was surfaced from the Lightspeed portfolio and
+  enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/big-sur-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,35 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2023'
+x-founders:
+- Vinod Ramachandran
+- Arnaud Weber
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- E-Commerce
+- Conversational AI
+- Shopping Assistant
+- Retail Technology
+- SaaS
+- Sales Agent
 apis: []
+common:
+- type: DomainSecurity
+  url: security/big-sur-ai-domain-security.yml
+- type: Website
+  url: https://bigsur.ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
